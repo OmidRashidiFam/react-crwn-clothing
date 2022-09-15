@@ -12,7 +12,7 @@ class CategoryContainer extends React.Component {
   // render component
   render() {
     return (
-      <div className="item-container">
+      <div className="category-container">
         {this.state.items.map(({ id, title, imageUrl, size, linkUrl }) => (
           <CategoryItem
             key={id}
