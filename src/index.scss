@@ -1,0 +1,25 @@
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@300;400;500;600;700&display=swap');
+
+// global variable
+// width variables
+$container-width-xlg: 90%;
+$container-width-lg: 95%;
+$container-width-md: 97.5%;
+$container-width-sm: 99%;
+
+// color variables
+$main-bg-color: rgb(242, 235, 227);
+$main-text-color: rgb(70, 70, 70);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 25px;
+  background-color: $main-bg-color;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
